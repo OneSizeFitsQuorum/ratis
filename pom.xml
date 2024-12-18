@@ -197,7 +197,7 @@
 
     <distMgmtSnapshotsId>apache.snapshots.https</distMgmtSnapshotsId>
     <distMgmtSnapshotsName>Apache Development Snapshot Repository</distMgmtSnapshotsName>
-    <distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/snapshots</distMgmtSnapshotsUrl>
+    <distMgmtSnapshotsUrl>https://repository.apache.org/content/repositories/orgapacheratis-1158</distMgmtSnapshotsUrl>
     <distMgmtStagingId>apache.staging.https</distMgmtStagingId>
     <distMgmtStagingName>Apache Release Distribution Repository</distMgmtStagingName>
     <distMgmtStagingUrl>https://repository.apache.org/service/local/staging/deploy/maven2</distMgmtStagingUrl>
@@ -210,11 +210,11 @@
     <maven.min.version>3.3.9</maven.min.version>
 
     <!-- Contains all shaded thirdparty dependencies -->
-    <ratis.thirdparty.version>1.0.6</ratis.thirdparty.version>
+    <ratis.thirdparty.version>1.0.8</ratis.thirdparty.version>
 
     <!-- Need these for the protobuf compiler. *MUST* match what is in ratis-thirdparty -->
-    <shaded.protobuf.version>3.24.4</shaded.protobuf.version>
-    <shaded.grpc.version>1.58.0</shaded.grpc.version>
+    <shaded.protobuf.version>3.25.5</shaded.protobuf.version>
+    <shaded.grpc.version>1.69.0</shaded.grpc.version>
 
     <!-- Test properties -->
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
